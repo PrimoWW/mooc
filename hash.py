@@ -13,4 +13,9 @@ tl = (1, 2, [30, 40])
 
 print(hash(tt))
 print(hash(tf))
-print(hash(tl))
+
+try:
+    print(hash(tl))
+
+except TypeError:
+    print("TypeError")

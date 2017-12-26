@@ -11,6 +11,8 @@
 """
 
 # 思路， 判断两个数的权重关系的思想是AB > BA => A > B
+
+
 def sort(n, list):
     m = int(n)
     for j in range(0, m):

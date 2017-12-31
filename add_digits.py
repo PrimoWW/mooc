@@ -9,6 +9,7 @@ the process is like: 3 + 8 = 11,
 1 + 1 = 2. Since 2 has only one digit, return it.
 """
 
+
 def add_digits(num):
     """
     :param num: int

@@ -1,3 +1,4 @@
+#求和等于target的所有组合
 import copy
 end, target = 5, 5
 def good(start, end, target, li):

@@ -18,4 +18,4 @@ def find_y(x, k):
 
 
 if __name__ == "__main__":
-    find_y(10, 2)
+    find_y(10, 2)  

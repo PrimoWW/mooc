@@ -17,7 +17,6 @@ for ind in index:
         c = copy.copy(res[i])
         c[ind] = str(ind) # 对结果列表中的每个组合依次添加布尔值为0的位置所对应的数字
         res.append(c)
-    print(res)
 
 for i in range(len(res)):
     res[i] = ''.join(res[i])
